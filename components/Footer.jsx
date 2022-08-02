@@ -20,6 +20,7 @@ const Footer = () => {
       <div className="text-xl text-center py-8">
         &copy; 2022, Minden jog fenntartva - gardenfxlife
       </div>
+      <p className="text-sm text-center">Created by - Bakos János</p>
     </div>
   );
 };

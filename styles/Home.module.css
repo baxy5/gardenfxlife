@@ -1,0 +1,7 @@
+.hero_bg {
+  background-image: url(../public/hero-background.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
