@@ -1,0 +1,27 @@
+.underline_animation {
+  display: inline-block;
+  position: relative;
+}
+
+.underline_animation:active,
+.underline_animation:focus {
+  color: #3872c3;
+}
+
+.underline_animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3872c3;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline_animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
